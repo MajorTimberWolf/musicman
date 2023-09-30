@@ -1,0 +1,37 @@
+{
+  "name": "musicman",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "migrate:local": "truffle migrate --network development",
+    "migrate:sepolia": "truffle migrate --network sepolia",
+    "build:css": "postcss styles/tailwind.css -o styles/main.css",
+    "watch:css": "postcss styles/tailwind.css -o styles/main.css --watch",
+    "prod:build": "npm run build:css && npm run build"
+  },
+  "dependencies": {
+    "@floating-ui/core": "^1.1.0",
+    "@material-tailwind/react": "^1.2.5",
+    "@pinata/sdk": "^2.1.0",
+    "@thirdweb-dev/react": "^3.6.2",
+    "@thirdweb-dev/sdk": "^3.6.2",
+    "axios-retry": "^3.3.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "jsmediatags": "^3.9.7",
+    "next": "13.0.3",
+    "postcss": "^8.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^2.1.1",
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.4",
+    "truffle": "^5.6.8"
+  }
+}
