@@ -8,7 +8,7 @@ export default function Layout ({ children, home }) {
   return (
     <div className='flex flex-col h-screen'>
       <Head>
-        <title>musiceth</title>
+        <title>MusicMan</title>
         <link rel='icon' href='/favicon.ico' />
         <meta name='description' content='Trade AudioNFTs' />
       </Head>

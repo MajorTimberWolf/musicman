@@ -13,7 +13,7 @@ export const Navbar = () => {
       <nav className='flex items-center flex-wrap bg-teal-600 p-3 '>
         <Link href='/' className='inline-flex items-center p-2 mr-4 '>
           <span className='text-3xl text-white font-bold font-mono tracking-wide'>
-            musiceth
+            MusicMan
           </span>
         </Link>
         <button
